@@ -48,10 +48,11 @@ jspm_packages
 .venv
 
 # pytest cache
-.pytest_cache
+.pytest_cache/
 
-# pycache
-lib/__pycache
+# Python cache
+__pycache__/
+*.pyc
 
-# checkpoints
-testing/.ipynb_checkpoints
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
